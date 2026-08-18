@@ -13,7 +13,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
             <span className="font-semibold tracking-tight">Vertexel</span>
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
-            Software, web & mobile — designed and shipped by Sarosh.
+            Software and digital solutions company. Building reliable, modern technology for businesses.
           </p>
         </div>
         <div className="flex flex-wrap gap-6 items-start">

@@ -14,16 +14,16 @@ import { useSiteSettings } from "@/hooks/useFirestore";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vertexel — Software, web & mobile studio" },
+      { title: "Vertexel — Software & Digital Solutions Company" },
       {
         name: "description",
         content:
-          "Vertexel is a one-person software studio. Full-stack products designed, built and shipped by Sarosh.",
+          "Vertexel designs and develops modern, scalable digital solutions that help businesses establish a stronger online presence, streamline operations, and achieve their objectives.",
       },
-      { property: "og:title", content: "Vertexel — Software, web & mobile studio" },
+      { property: "og:title", content: "Vertexel — Software & Digital Solutions Company" },
       {
         property: "og:description",
-        content: "Full-stack products designed, built and shipped by Sarosh.",
+        content: "We design and develop modern, scalable digital solutions for businesses. Web applications, mobile apps, AI integrations, and custom software.",
       },
       { property: "og:type", content: "website" },
     ],

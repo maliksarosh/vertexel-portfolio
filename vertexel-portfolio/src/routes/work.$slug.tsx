@@ -91,7 +91,7 @@ function WorkDetail() {
           <div className="mt-24 grid grid-cols-1 md:grid-cols-12 gap-12">
             <div className="md:col-span-8 space-y-16">
               <Section title="The problem" body={project.problem} />
-              <Section title="What I built" body={project.solution} />
+              <Section title="Our solution" body={project.solution} />
               <Section title="Outcome" body={project.outcome} />
             </div>
             <aside className="md:col-span-4 space-y-8">

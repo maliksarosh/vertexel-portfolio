@@ -20,7 +20,7 @@ export function Portfolio() {
               </h2>
             </div>
             <p className="text-muted-foreground max-w-md">
-              A handful of the products I've built and shipped. Every one designed, coded, and deployed by me personally.
+              A selection of digital solutions developed by Vertexel. Each project represents our commitment to delivering scalable, production-ready technology tailored to client requirements.
             </p>
           </div>
         </Reveal>

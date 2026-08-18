@@ -51,7 +51,7 @@ export function Contact({ settings }: { settings: SiteSettings }) {
       (e.target as HTMLFormElement).reset();
     } catch (err) {
       console.error(err);
-      setError("Something went wrong. Try emailing me directly.");
+      setError("Something went wrong. Try reaching us directly at " + settings.contactEmail + ".");
       setState("error");
     }
   }
@@ -68,7 +68,7 @@ export function Contact({ settings }: { settings: SiteSettings }) {
               Let's build something.
             </h2>
             <p className="mt-6 text-muted-foreground text-lg max-w-md">
-              Have a project in mind? Send the details and I'll get back within a business day.
+              Have a project in mind? Share the details and our team will respond within a business day.
             </p>
             {settings.contactEmail && (
               <a
@@ -87,7 +87,7 @@ export function Contact({ settings }: { settings: SiteSettings }) {
               <div className="p-8 rounded-2xl bg-surface border border-border">
                 <h3 className="font-display text-3xl mb-2">Message received.</h3>
                 <p className="text-muted-foreground">
-                  I'll reply within a business day. In the meantime, feel free to email me directly.
+                  We'll reply within a business day. In the meantime, feel free to email us directly.
                 </p>
                 <button
                   type="button"

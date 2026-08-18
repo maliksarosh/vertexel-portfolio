@@ -11,7 +11,7 @@ export function About({ settings }: { settings: SiteSettings }) {
               About
             </p>
             <h2 className="font-display text-4xl md:text-5xl text-balance">
-              One person. Full stack. No middlemen.
+              Professional Digital Solutions. No Compromise.
             </h2>
           </Reveal>
         </div>
@@ -24,7 +24,7 @@ export function About({ settings }: { settings: SiteSettings }) {
               {[
                 { k: "Projects", v: "20+" },
                 { k: "Since", v: "2023" },
-                { k: "Solo", v: "100%" },
+                { k: "Focused", v: "100%" },
               ].map((s) => (
                 <div key={s.k}>
                   <div className="font-display text-3xl md:text-4xl text-primary">{s.v}</div>

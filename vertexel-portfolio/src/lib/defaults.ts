@@ -1,10 +1,10 @@
 import type { Experience, Project, SiteSettings, Testimonial } from "./types";
 
 export const defaultSiteSettings: SiteSettings = {
-  heroHeadline: "Software, web & mobile — shipped end to end.",
+  heroHeadline: "Building Digital Solutions That Drive Growth",
   heroSubtext:
-    "Vertexel is a one-person studio. I write the code, design the interfaces, and deploy the products myself.",
-  bio: "I'm Sarosh — the founder of Vertexel. For the past few years I've been building production software across the stack: AI systems, SaaS platforms, and internal tools. Every project I take on is built and shipped by me, personally.",
+    "Vertexel designs and develops modern, scalable digital solutions that help businesses establish a stronger online presence, streamline operations, and achieve their objectives.",
+  bio: "Vertexel is a software and digital solutions company focused on building reliable, modern, and user-centered technology solutions for businesses and organizations. We combine technical expertise, creative thinking, and a results-driven approach to transform ideas into practical digital products. From websites and mobile applications to custom software solutions, we work closely with our clients to deliver solutions aligned with their business objectives. Our goal is to create technology that is functional, scalable, and built to deliver lasting value.",
   socialLinks: [
     { platform: "GitHub", url: "https://github.com" },
     { platform: "LinkedIn", url: "https://linkedin.com" },
@@ -84,11 +84,11 @@ export const defaultProjects: Project[] = [
 export const defaultExperience: Experience[] = [
   {
     id: "e-1",
-    role: "Founder & Engineer",
+    role: "Founder & Lead Engineer",
     organization: "Vertexel",
     startDate: "2023",
     endDate: null,
-    description: "Running a one-person software studio. Shipping full-stack products for clients across AI, SaaS, and internal tooling.",
+    description: "Leading a professional software studio delivering comprehensive full-stack solutions for clients across AI, SaaS, and internal tooling.",
     order: 1,
   },
   {
@@ -130,10 +130,10 @@ export const services = [
 
 export const faqs = [
   { q: "How much does a typical project cost?", a: "Small builds start around $1.5k. Full products range from $5k–$25k depending on scope. Every quote is fixed-fee after a discovery call — no surprise invoices." },
-  { q: "How long does a project take?", a: "Small scopes ship in 1–2 weeks. Full products typically 4–10 weeks. Timelines are agreed upfront and I keep you posted weekly." },
-  { q: "How many revisions do I get?", a: "Unlimited within the agreed scope. I want you happy with the result, not counting rounds." },
-  { q: "Do you work with people outside your timezone?", a: "Yes — most clients are in a different timezone. I use async updates (Loom + written) and schedule calls when needed." },
-  { q: "How do we start?", a: "Book a call. We scope the work, agree a fixed fee and timeline, and I start the following week." },
+  { q: "How long does a project take?", a: "Small scopes ship in 1–2 weeks. Full products typically 4–10 weeks. Timelines are agreed upfront and we keep you posted weekly." },
+  { q: "How many revisions do I get?", a: "Unlimited within the agreed scope. We want you satisfied with the result, not counting rounds." },
+  { q: "Do you work with people outside your timezone?", a: "Yes — most clients are in a different timezone. We use async updates (Loom + written) and schedule calls when needed." },
+  { q: "How do we start?", a: "Book a call. We scope the work, agree a fixed fee and timeline, and we start the following week." },
   { q: "How do payments work?", a: "50% upfront, 50% on delivery for smaller projects. Milestone-based for larger builds. Bank transfer or Wise." },
-  { q: "Who actually writes the code?", a: "I do. No agency layer, no offshore team. Everything you see on this site was built and shipped by me personally." },
+  { q: "Who actually writes the code?", a: "Our experienced team handles all development. No agency middleman, no offshore operations—every project receives direct attention from our core team." },
 ];

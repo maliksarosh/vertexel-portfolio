@@ -77,12 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vertexel — Software, web & mobile studio" },
+      { title: "Vertexel — Software & Digital Solutions Company" },
       {
         name: "description",
-        content: "Vertexel — a one-person software studio. Full-stack products shipped end to end.",
+        content: "Vertexel delivers modern, scalable digital solutions. Web applications, mobile apps, AI integrations, and custom software for businesses.",
       },
-      { name: "author", content: "Sarosh" },
       { property: "og:site_name", content: "Vertexel" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
