@@ -42,8 +42,7 @@ export function Portfolio() {
                     <img
                       src={p.coverUrl}
                       alt={p.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"                    />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/10 via-transparent to-secondary/10">
                       <span className="font-display text-6xl md:text-7xl text-foreground/20">
