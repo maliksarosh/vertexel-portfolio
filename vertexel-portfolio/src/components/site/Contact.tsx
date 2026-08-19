@@ -14,7 +14,7 @@ const schema = z.object({
 });
 
 const projectTypes = ["Web app", "Mobile app", "AI / automation", "API / backend", "Something else"];
-const budgets = ["< $2k", "$2k – $5k", "$5k – $15k", "$15k+", "Not sure yet"];
+const budgets = ["Starting from $500", "$2k – $5k", "$5k – $15k", "$15k+", "Not sure yet"];
 
 export function Contact({ settings }: { settings: SiteSettings }) {
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
