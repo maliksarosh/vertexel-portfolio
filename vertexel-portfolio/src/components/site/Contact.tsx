@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from "react";
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { z } from "zod";
 import { Reveal } from "./Reveal";
-import { db } from "@/lib/firebase";
 import type { SiteSettings } from "@/lib/types";
+
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mdavjbqn";
 
 const schema = z.object({
   name: z.string().trim().min(1, "Name required").max(120),
@@ -42,11 +42,15 @@ export function Contact({ settings }: { settings: SiteSettings }) {
     }
     setState("sending");
     try {
-      await addDoc(collection(db, "submissions"), {
-        ...parsed.data,
-        read: false,
-        createdAt: serverTimestamp(),
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(parsed.data),
       });
+      if (!response.ok) throw new Error(`Formspree request failed: ${response.status}`);
       setState("sent");
       (e.target as HTMLFormElement).reset();
     } catch (err) {
