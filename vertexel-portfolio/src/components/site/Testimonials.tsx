@@ -22,19 +22,6 @@ export function Testimonials() {
                 <blockquote className="font-display text-2xl md:text-3xl leading-snug text-balance">
                   "{t.quote}"
                 </blockquote>
-                <figcaption className="mt-8 flex items-center gap-3">
-                  {t.photoUrl && (
-                    <img
-                      src={t.photoUrl}
-                      alt={t.name}
-                      className="w-10 h-10 rounded-full object-cover"
-                    />
-                  )}
-                  <div>
-                    <div className="font-medium">{t.name}</div>
-                    <div className="text-sm text-muted-foreground">{t.title}</div>
-                  </div>
-                </figcaption>
               </figure>
             </Reveal>
           ))}

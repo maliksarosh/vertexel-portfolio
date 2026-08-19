@@ -9,6 +9,7 @@ export const defaultSiteSettings: SiteSettings = {
     { platform: "GitHub", url: "https://github.com" },
     { platform: "LinkedIn", url: "https://linkedin.com" },
     { platform: "Email", url: "mailto:maliksarosh33@gmail.com" },
+    { platform: "WhatsApp", url: "https://wa.me/923701808550" },
   ],
   contactEmail: "maliksarosh33@gmail.com",
   contactPhone: "",
@@ -129,7 +130,7 @@ export const services = [
 ];
 
 export const faqs = [
-  { q: "How much does a typical project cost?", a: "Small builds start around $1.5k. Full products range from $5k–$25k depending on scope. Every quote is fixed-fee after a discovery call — no surprise invoices." },
+  { q: "How much does a typical project cost?", a: "Small builds start around $500. Full products range from $5k–$25k depending on scope. Every quote is fixed-fee after a discovery call — no surprise invoices." },
   { q: "How long does a project take?", a: "Small scopes ship in 1–2 weeks. Full products typically 4–10 weeks. Timelines are agreed upfront and we keep you posted weekly." },
   { q: "How many revisions do I get?", a: "Unlimited within the agreed scope. We want you satisfied with the result, not counting rounds." },
   { q: "Do you work with people outside your timezone?", a: "Yes — most clients are in a different timezone. We use async updates (Loom + written) and schedule calls when needed." },
